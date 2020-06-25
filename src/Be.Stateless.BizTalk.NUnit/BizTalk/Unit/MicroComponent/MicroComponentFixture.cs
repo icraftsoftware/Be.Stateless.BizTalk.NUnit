@@ -16,6 +16,7 @@
 
 #endregion
 
+using Be.Stateless.BizTalk.MicroComponent;
 using NUnit.Framework;
 
 namespace Be.Stateless.BizTalk.Unit.MicroComponent
