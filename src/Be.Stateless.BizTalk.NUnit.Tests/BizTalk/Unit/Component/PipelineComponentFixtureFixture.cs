@@ -22,6 +22,7 @@ using System.Configuration;
 using System.Xml.Serialization;
 using Be.Stateless.BizTalk.Component;
 using Be.Stateless.BizTalk.Component.Interop;
+using Be.Stateless.BizTalk.MicroComponent;
 using Be.Stateless.Extensions;
 using Be.Stateless.Xml;
 using Microsoft.BizTalk.Component.Interop;
@@ -37,9 +38,9 @@ namespace Be.Stateless.BizTalk.Unit.Component
 		{
 			#region Nested Type: MicroComponentDouble
 
-			public class MicroComponentDouble : IMicroPipelineComponent
+			public class MicroComponentDouble : IMicroComponent
 			{
-				#region IMicroPipelineComponent Members
+				#region IMicroComponent Members
 
 				public IBaseMessage Execute(IPipelineContext pipelineContext, IBaseMessage message)
 				{
