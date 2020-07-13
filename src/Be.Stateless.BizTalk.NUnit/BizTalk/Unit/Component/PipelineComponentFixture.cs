@@ -31,7 +31,6 @@ namespace Be.Stateless.BizTalk.Unit.Component
 	/// This is essentially a <c>NUnit</c> tailored version of the <see cref="PipelineComponentFixtureBase{T}"/> base class.
 	/// </remarks>
 	/// <seealso cref="PipelineComponentFixtureBase{T}"/>
-	//[TestFixture]
 	public abstract class PipelineComponentFixture<T> : PipelineComponentFixtureBase<T>
 		where T : PipelineComponent, new()
 	{
