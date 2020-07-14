@@ -19,6 +19,7 @@
 using System;
 using System.ComponentModel;
 using System.Configuration;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Serialization;
 using Be.Stateless.BizTalk.Component;
 using Be.Stateless.BizTalk.Component.Interop;
@@ -59,6 +60,7 @@ namespace Be.Stateless.BizTalk.Unit.Component
 
 			#region ExecutionModeEnum Enum
 
+			[SuppressMessage("ReSharper", "UnusedMember.Global", Justification = "xUnit test class.")]
 			public enum ExecutionModeEnum
 			{
 				Immediate = 0,
